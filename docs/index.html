@@ -26,8 +26,6 @@
     }
   </style>
 
-
-
   <style type="text/css">
     h1 {
       font-size: 34px;
@@ -74,6 +72,11 @@
     margin-right: auto;
   }
 
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
   code {
     color: inherit;
     background-color: rgba(0, 0, 0, 0.04);
@@ -117,27 +120,38 @@
 </style>
 
 <div>
-
-  <h3>Web Applications</h3>
+  <img src="img/powwater_white.png">
   <br>
+  <h2>Powwater Application Portal</h2>
+</div>
 
+<div>
+  <h3>Applications</h3>
+  <br>
   <div class="container">
     <div class="row">
-      <div class="col-sm"><a href="https://adminportal.powwater.org/"><img class="btn-img img-fluid"
-            src="img/admin_portal.jpg" alt="Admin Portal Dashboard"></a></div>
-      <div class="col-sm"><a href="https://vendorsdashboard.powwater.org/"><img class="btn-img img-fluid"
-            src="img/vendors_app.jpg" alt="Vendors App"></a></div>
-      <div class="col-sm"><a href="https://github.com/powwater/customerMobile/"><img class="btn-img img-fluid"
-            src="img/customers_app.jpg" alt="Customers App"></a></div>
+      <div class="col-sm">
+        <a href="https://adminportal.powwater.org/">
+          <img class="btn-img img-fluid" src="img/admin_portal.jpg" alt="Admin Portal Dashboard">
+        </a>
+      </div>
+      <div class="col-sm"><a href="https://vendorsdashboard.powwater.org/">
+          <img class="btn-img img-fluid" src="img/vendors_app.jpg" alt="Vendors App">
+        </a>
+      </div>
+      <div class="col-sm"><a href="https://github.com/powwater/customerMobile/" class="disabled">
+          <img class="btn-img img-fluid" src="img/customers_app.jpg" alt="Customers App">
+        </a>
+        <h5><em style="color: blue;">Coming Soon!</em></h5>
+      </div>
     </div>
   </div>
 
   <h3>Resources</h3>
-  <p><a href="https://docs.rstudio.com">Developer Documentation</a></p>
   <p><a href="https://powwater.org">Powwater Initiative</a></p>
-  <p><a href="https://github.com/powwater">Github Organization</a></p>
   <p><a href="https://powwater.org">About</a></p>
-
+  <p><a href="https://github.com/powwater">Github Organization</a></p>
+  <p><a href="https://docs.rstudio.com">Developer Documentation</a></p>
   <br>
 
   <p><small><a href="https://github.com/powwater/">Powwater</a><br>Mombasa, Kenya<br>844-448-1212</small></p>
